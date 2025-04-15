@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 10px;
+}
+
+.intro, .product-list, .about, .contact {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.product {
+    display: inline-block;
+    width: 18%;
+    margin: 1%;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+}
